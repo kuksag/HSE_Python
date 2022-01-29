@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import networkx as nx
 import inspect
 import ast
+import os
 
 
 def dfs(node, graph: nx.DiGraph):
@@ -27,6 +28,9 @@ def draw(g: nx.DiGraph):
         "alpha": 0.9,
     }
     nx.draw(g, with_labels=True, **options)
+    if not os.path.exists('artifacts/'):
+        os.makedirs('artifacts')
+    plt.savefig('artifacts/result.png')
     plt.show()
 
 
