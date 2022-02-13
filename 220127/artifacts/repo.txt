@@ -1,0 +1,1 @@
+https://test.pypi.org/project/KuksagMyPackage/0.0.2/
