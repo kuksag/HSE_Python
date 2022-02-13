@@ -1,9 +1,15 @@
-from fib import get_fib as fancy_function
 import matplotlib.pyplot as plt
 import networkx as nx
 import inspect
 import ast
 import os
+
+
+def fancy_function(n: int):
+    result = [0, 1]
+    while len(result) < n:
+        result.append(result[-1] + result[-2])
+    return result
 
 
 def dfs(node, graph: nx.DiGraph):
