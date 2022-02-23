@@ -1,45 +1,9 @@
-from attrs import define, field
-from copy import copy
 import numpy as np
 import os
-
+from matrix import Matrix
+from number import ArrayLike
 
 ARTIFACT_FOLDER = 'artifact'
-
-
-def _check_dimensions(instance, attribute, value):
-    flag = True
-    for row in value:
-        flag &= len(row) == len(value)
-    if not flag:
-        raise ValueError("Bad dimensions")
-
-
-@define(frozen=True)
-class Matrix:
-    data = field(validator=_check_dimensions)
-
-    def __add__(self, other):
-        if self.data.shape != other.data.shape:
-            raise ValueError("Different dimensions")
-        result = copy(self.data)
-        for i, row in enumerate(other.data):
-            result[i] += row
-        return Matrix(result)
-
-    def __mul__(self, other):
-        if self.data.shape[1] != other.data.shape[0]:
-            raise ValueError("Different dimensions")
-        result = copy(self.data)
-        return Matrix(result * other.data)
-
-    def __mod__(self, other):
-        if self.data.shape[1] != other.data.shape[0]:
-            raise ValueError("Different dimensions")
-        result = copy(self.data)
-        for i, row in enumerate(other.data):
-            result[i] *= row
-        return Matrix(result)
 
 
 def check_sum():
@@ -57,7 +21,7 @@ def check_matrix_mult():
     if not os.path.exists(ARTIFACT_FOLDER):
         os.makedirs(ARTIFACT_FOLDER)
     with open(os.path.join(ARTIFACT_FOLDER, 'matrix+.txt'), 'w+') as file:
-        file.write(str(a + b))
+        file.write(str(a @ b))
 
 
 def check_matrix_elem_mult():
@@ -66,7 +30,23 @@ def check_matrix_elem_mult():
     if not os.path.exists(ARTIFACT_FOLDER):
         os.makedirs(ARTIFACT_FOLDER)
     with open(os.path.join(ARTIFACT_FOLDER, 'matrix@.txt'), 'w+') as file:
-        file.write(str(a % b))
+        file.write(str(a * b))
+
+
+def check_numbers():
+    a = ArrayLike(2)
+    b = ArrayLike(3)
+    if not os.path.exists(ARTIFACT_FOLDER):
+        os.makedirs(ARTIFACT_FOLDER)
+    a.dump(os.path.join(ARTIFACT_FOLDER, 'numbers_dump.txt'))
+
+    with open(os.path.join(ARTIFACT_FOLDER, 'numbers_dump.txt'), 'a') as fd:
+        print(str(a + b), file=fd)
+        print(str(a - b), file=fd)
+        print(str(a * b), file=fd)
+        print(str(a / b), file=fd)
+
+
 
 
 if __name__ == '__main__':
@@ -74,3 +54,4 @@ if __name__ == '__main__':
     check_sum()
     check_matrix_mult()
     check_matrix_elem_mult()
+    check_numbers()
