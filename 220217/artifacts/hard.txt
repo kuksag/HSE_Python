@@ -1,0 +1,42 @@
+INFO:root:2022-03-02 22:52:04.928326	 Got             hello from            stdin in             main
+INFO:root:2022-03-02 22:52:04.928362	 Sent            hello from             main to        process A
+INFO:root:2022-03-02 22:52:04.928516	 Got             hello from             main in        process A
+INFO:root:2022-03-02 22:52:04.928535	 Sent            hello from        process A to        process B
+INFO:root:2022-03-02 22:52:09.933797	 Got             hello from        process A in        process B
+INFO:root:2022-03-02 22:52:09.934228	 Sent            uryyb from        process B to             main
+INFO:root:2022-03-02 22:52:14.936028	 Got             uryyb from        process B in             main
+INFO:root:2022-03-02 22:52:08.121006	 Got             world from            stdin in             main
+INFO:root:2022-03-02 22:52:08.121031	 Sent            world from             main to        process A
+INFO:root:2022-03-02 22:52:09.933719	 Got             world from             main in        process A
+INFO:root:2022-03-02 22:52:09.933741	 Sent            world from        process A to        process B
+INFO:root:2022-03-02 22:52:14.935928	 Got             world from        process A in        process B
+INFO:root:2022-03-02 22:52:14.935960	 Sent            jbeyq from        process B to             main
+INFO:root:2022-03-02 22:52:19.941156	 Got             jbeyq from        process B in             main
+INFO:root:2022-03-02 22:52:09.209102	 Got            its me from            stdin in             main
+INFO:root:2022-03-02 22:52:09.209126	 Sent           its me from             main to        process A
+INFO:root:2022-03-02 22:52:14.935745	 Got            its me from             main in        process A
+INFO:root:2022-03-02 22:52:14.935770	 Sent           its me from        process A to        process B
+INFO:root:2022-03-02 22:52:19.941085	 Got            its me from        process A in        process B
+INFO:root:2022-03-02 22:52:19.941103	 Sent           vgf zr from        process B to             main
+INFO:root:2022-03-02 22:52:24.943724	 Got            vgf zr from        process B in             main
+INFO:root:2022-03-02 22:52:10.488859	 Got                hi from            stdin in             main
+INFO:root:2022-03-02 22:52:10.488885	 Sent               hi from             main to        process A
+INFO:root:2022-03-02 22:52:19.939687	 Got                hi from             main in        process A
+INFO:root:2022-03-02 22:52:19.939709	 Sent               hi from        process A to        process B
+INFO:root:2022-03-02 22:52:24.944326	 Got                hi from        process A in        process B
+INFO:root:2022-03-02 22:52:24.944343	 Sent               uv from        process B to             main
+INFO:root:2022-03-02 22:52:29.949610	 Got                uv from        process B in             main
+INFO:root:2022-03-02 22:52:11.128924	 Got               123 from            stdin in             main
+INFO:root:2022-03-02 22:52:11.128949	 Sent              123 from             main to        process A
+INFO:root:2022-03-02 22:52:24.944261	 Got               123 from             main in        process A
+INFO:root:2022-03-02 22:52:24.944274	 Sent              123 from        process A to        process B
+INFO:root:2022-03-02 22:52:29.949539	 Got               123 from        process A in        process B
+INFO:root:2022-03-02 22:52:29.949557	 Sent              123 from        process B to             main
+INFO:root:2022-03-02 22:52:34.954699	 Got               123 from        process B in             main
+INFO:root:2022-03-02 22:52:11.504583	 Got               123 from            stdin in             main
+INFO:root:2022-03-02 22:52:11.504611	 Sent              123 from             main to        process A
+INFO:root:2022-03-02 22:52:29.949415	 Got               123 from             main in        process A
+INFO:root:2022-03-02 22:52:29.949438	 Sent              123 from        process A to        process B
+INFO:root:2022-03-02 22:52:34.954907	 Got               123 from        process A in        process B
+INFO:root:2022-03-02 22:52:34.954929	 Sent              123 from        process B to             main
+INFO:root:2022-03-02 22:52:39.960159	 Got               123 from        process B in             main
