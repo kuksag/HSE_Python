@@ -1,0 +1,16 @@
+Runs with argument: [100000], repeated 1 times, mcs:
+      Sequential           320843
+        Threaded           335765
+       Processed           176429
+Runs with argument: [100000], repeated 2 times, mcs:
+      Sequential           619356
+        Threaded           735457
+       Processed           350713
+Runs with argument: [100000], repeated 8 times, mcs:
+      Sequential           572695
+        Threaded            21110
+       Processed            28873
+Runs with argument: [100000], repeated 10 times, mcs:
+      Sequential            31364
+        Threaded           701887
+       Processed           824258
