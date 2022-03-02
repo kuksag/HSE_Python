@@ -1,0 +1,120 @@
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 1, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           267340 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 2, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           215503 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 3, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           218982 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 4, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           202380 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 5, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           254764 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 6, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           147464 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 7, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           222215 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 8, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           153234 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 9, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           237296 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 10, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           155913 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 11, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           174037 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 12, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           216695 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 13, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           204676 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 14, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           187943 mcs
+INFO:root:Started function: integrate_with_threads
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 15, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           191308 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 1, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           355365 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 2, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           282701 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 3, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           260063 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 4, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           169164 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 5, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           210601 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 6, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           223073 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 7, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           305345 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 8, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           353200 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 9, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           375933 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 10, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           437638 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 11, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           443434 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 12, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           535110 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 13, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           502314 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 14, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           495443 mcs
+INFO:root:Started function: integrate_with_processes
+INFO:root:With args: (<built-in function cos>, 0, 1.5707963267948966, 15, 10000)
+INFO:root:Got result:               1.0000785377601742
+INFO:root:Finished with time:           420312 mcs
