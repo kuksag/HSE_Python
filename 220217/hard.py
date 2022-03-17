@@ -26,12 +26,11 @@ def stdio_reader(writer: mp.Pipe):
 def to_lower(receiver: mp.Pipe, writer: mp.Pipe):
     try:
         while True:
-            if receiver.poll(5):
+            if receiver.poll():
                 log, message = receiver.recv()
                 log.append(GOT_TIME_MESSAGE_FROM_TO.format(datetime.now(), message, 'main', 'process A'))
                 message = message.lower()
                 log.append(SENT_TIME_MESSAGE_FROM_TO.format(datetime.now(), message, 'process A', 'process B'))
-                time.sleep(5)
                 writer.send((log, message))
     except EOFError:
         writer.close()
@@ -40,12 +39,11 @@ def to_lower(receiver: mp.Pipe, writer: mp.Pipe):
 def rot13(receiver: mp.Pipe, writer: mp.Pipe):
     try:
         while True:
-            if receiver.poll(5):
+            if receiver.poll():
                 log, message = receiver.recv()
                 log.append(GOT_TIME_MESSAGE_FROM_TO.format(datetime.now(), message, 'process A', 'process B'))
                 message = codecs.encode(message, 'rot_13')
                 log.append(SENT_TIME_MESSAGE_FROM_TO.format(datetime.now(), message, 'process B', 'main'))
-                time.sleep(5)
                 writer.send((log, message))
     except EOFError:
         writer.close()
@@ -63,10 +61,10 @@ if __name__ == '__main__':
 
     io_thread = threading.Thread(target=stdio_reader,
                                  args=(stdio_writer,))
-    process_A = threading.Thread(target=to_lower,
-                                 args=(A_receiver, A_writer,))
-    process_B = threading.Thread(target=rot13,
-                                 args=(B_receiver, B_writer,))
+    process_A = mp.Process(target=to_lower,
+                           args=(A_receiver, A_writer,))
+    process_B = mp.Process(target=rot13,
+                           args=(B_receiver, B_writer,))
 
     io_thread.start()
     process_A.start()

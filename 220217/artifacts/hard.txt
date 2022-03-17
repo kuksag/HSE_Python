@@ -40,3 +40,38 @@ INFO:root:2022-03-02 22:52:29.949438	 Sent              123 from        process 
 INFO:root:2022-03-02 22:52:34.954907	 Got               123 from        process A in        process B
 INFO:root:2022-03-02 22:52:34.954929	 Sent              123 from        process B to             main
 INFO:root:2022-03-02 22:52:39.960159	 Got               123 from        process B in             main
+INFO:root:2022-03-17 16:09:49.961975	 Got             hello from            stdin in             main
+INFO:root:2022-03-17 16:09:49.962012	 Sent            hello from             main to        process A
+INFO:root:2022-03-17 16:09:49.962180	 Got             hello from             main in        process A
+INFO:root:2022-03-17 16:09:49.962197	 Sent            hello from        process A to        process B
+INFO:root:2022-03-17 16:09:54.963962	 Got             hello from        process A in        process B
+INFO:root:2022-03-17 16:09:54.964513	 Sent            uryyb from        process B to             main
+INFO:root:2022-03-17 16:09:59.968561	 Got             uryyb from        process B in             main
+INFO:root:2022-03-17 20:51:13.804304	 Got       Hello world from            stdin in             main
+INFO:root:2022-03-17 20:51:13.804368	 Sent      Hello world from             main to        process A
+INFO:root:2022-03-17 20:51:13.804660	 Got       Hello world from             main in        process A
+INFO:root:2022-03-17 20:51:13.804712	 Sent      hello world from        process A to        process B
+INFO:root:2022-03-17 20:51:13.804880	 Got       hello world from        process A in        process B
+INFO:root:2022-03-17 20:51:13.805603	 Sent      uryyb jbeyq from        process B to             main
+INFO:root:2022-03-17 20:51:13.805753	 Got       uryyb jbeyq from        process B in             main
+INFO:root:2022-03-17 20:51:16.217685	 Got              keje from            stdin in             main
+INFO:root:2022-03-17 20:51:16.217717	 Sent             keje from             main to        process A
+INFO:root:2022-03-17 20:51:16.217823	 Got              keje from             main in        process A
+INFO:root:2022-03-17 20:51:16.217843	 Sent             keje from        process A to        process B
+INFO:root:2022-03-17 20:51:16.217909	 Got              keje from        process A in        process B
+INFO:root:2022-03-17 20:51:16.217928	 Sent             xrwr from        process B to             main
+INFO:root:2022-03-17 20:51:16.218017	 Got              xrwr from        process B in             main
+INFO:root:2022-03-17 20:52:07.643796	 Got            уцоузп from            stdin in             main
+INFO:root:2022-03-17 20:52:07.643865	 Sent           уцоузп from             main to        process A
+INFO:root:2022-03-17 20:52:07.644197	 Got            уцоузп from             main in        process A
+INFO:root:2022-03-17 20:52:07.644252	 Sent           уцоузп from        process A to        process B
+INFO:root:2022-03-17 20:52:12.647597	 Got            уцоузп from        process A in        process B
+INFO:root:2022-03-17 20:52:12.648317	 Sent           уцоузп from        process B to             main
+INFO:root:2022-03-17 20:52:17.653600	 Got            уцоузп from        process B in             main
+INFO:root:2022-03-17 20:52:16.846580	 Got           hellowe from            stdin in             main
+INFO:root:2022-03-17 20:52:16.846603	 Sent          hellowe from             main to        process A
+INFO:root:2022-03-17 20:52:16.846731	 Got           hellowe from             main in        process A
+INFO:root:2022-03-17 20:52:16.846747	 Sent          hellowe from        process A to        process B
+INFO:root:2022-03-17 20:52:21.851461	 Got           hellowe from        process A in        process B
+INFO:root:2022-03-17 20:52:21.851492	 Sent          uryybjr from        process B to             main
+INFO:root:2022-03-17 20:52:26.856658	 Got           uryybjr from        process B in             main
